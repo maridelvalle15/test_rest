@@ -12,4 +12,4 @@ class Libro(models.Model):
     nombre = models.TextField(max_length=100)
     editorial = models.TextField(max_length=100)
     genero = models.TextField(max_length=100)
-    autor = models.ForeignKey(Autor)
+    autor = models.TextField(max_length=100)
